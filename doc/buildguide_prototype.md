@@ -82,7 +82,9 @@
 
 キーマップのカスタマイズは[Vial](https://get.vial.today/)にて行えます。
 
-デフォルトキーマップで使用する場合は`QMK Settings > Tap-Hold > Ignore Mod Tap Interrupt`にチェックを入れることを推奨します。これを行わないとレイヤー周りの打鍵で苦労します。
+初期キーマップで使う場合は下記からキーマップ定義をダウンロードし、アプリ版のVialにて`File > Load saved layout`から読み込んでください。これによりTapDanceの定義やQMK Settingsが復元され利用可能になります。
+
+[https://github.com/ymkn/neige/releases/download/v0.1/neige.vil](https://github.com/ymkn/neige/releases/download/v0.1/neige.vil)
 
 ## 5. その他
 

@@ -4023,6 +4023,10 @@
 		(uuid "400ecdb3-50d5-4c95-8468-7ad03c5ef512")
 	)
 	(no_connect
+		(at 203.2 161.29)
+		(uuid "604a7903-4887-4227-82e2-060c1438b4cc")
+	)
+	(no_connect
 		(at 203.2 214.63)
 		(uuid "68d7f50d-353a-42cf-acc1-c56c4b3c69ff")
 	)
@@ -4041,6 +4045,10 @@
 	(no_connect
 		(at 203.2 184.15)
 		(uuid "a3ca4240-3140-4dbe-abea-5d1ecf083c5a")
+	)
+	(no_connect
+		(at 203.2 158.75)
+		(uuid "aba3eb2a-2079-47b7-90bf-ff77182c639e")
 	)
 	(no_connect
 		(at 203.2 168.91)
@@ -5706,28 +5714,6 @@
 			)
 		)
 	)
-	(global_label "XOUT"
-		(shape input)
-		(at 203.2 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3665e04b-60a9-4d7d-b63f-7b581c89a7c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4561 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL8"
 		(shape input)
 		(at 203.2 176.53 180)
@@ -6010,28 +5996,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XIN"
-		(shape input)
-		(at 203.2 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9da2ec69-a63c-4d83-81af-4555a31ab6cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.1494 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)

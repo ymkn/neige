@@ -45810,18 +45810,6 @@
 		(layer "Edge.Cuts")
 		(uuid "fe97204d-c621-4abd-83fa-b3e6084e1a2b")
 	)
-	(gr_text "JLCJLCJLCJLC"
-		(at 93.3498 76.4248 90)
-		(layer "B.SilkS")
-		(uuid "08ccddd1-7d52-4e81-be85-c5cffd38a5b1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "Neige PCB v1.0 by @ymkn"
 		(at 91.4498 76.4248 90)
 		(layer "B.SilkS")

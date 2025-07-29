@@ -1,6 +1,6 @@
 {
     "manufacturer": "ymkn",
-    "keyboard_name": "Neige",
+    "keyboard_name": "neige",
     "maintainer": "ymkn",
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",

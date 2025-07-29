@@ -1,6 +1,6 @@
-# Neige
+# neige
 
-Neige - A compact 30% keyboard with 3-rows and 12-columns row staggered layout in 12.75u width.
+neige - A compact 30% keyboard with 3-rows and 12-columns row staggered layout in 12.75u width.
 
 * Keyboard Maintainer: [ymkn](https://github.com/ymkn)
 

@@ -5,9 +5,9 @@
 	(uuid "3d120d70-8016-4f25-b980-ad33d03c9704")
 	(paper "A3")
 	(title_block
-		(title "Neige PCB")
-		(date "2025-05-06")
-		(rev "v1.0")
+		(title "neige PCB")
+		(date "2025-08-02")
+		(rev "v1.1")
 		(company "@ymkn")
 	)
 	(lib_symbols
@@ -5351,6 +5351,28 @@
 		)
 		(uuid "21fa31d7-be51-4685-a385-ce9aedec771a")
 	)
+	(text "※for VDDA"
+		(exclude_from_sim no)
+		(at 274.828 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4182a2b6-215c-488c-8df3-86ae10027aba")
+	)
+	(text "※for VDDA"
+		(exclude_from_sim no)
+		(at 237.998 102.362 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "469b991d-1604-412c-b53a-f2817d8de43b")
+	)
 	(text "※MCU近傍"
 		(exclude_from_sim no)
 		(at 121.666 223.52 0)
@@ -5386,7 +5408,7 @@
 	)
 	(text "※3.3V電源ピン近傍"
 		(exclude_from_sim no)
-		(at 191.77 118.11 0)
+		(at 185.42 117.856 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7183,7 +7205,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ef147a0-40d6-417f-ba9b-0bebcd0b0378")
 		(property "Reference" "#PWR29"
 			(at 254 113.03 0)
@@ -8442,6 +8463,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 254 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29df3bef-ed9a-4197-ac11-9bf752648670")
+		(property "Reference" "#PWR1"
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aa2a831-6cd2-4bb1-bd79-d62003ac8548")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 55.88 110.49 0)
 		(unit 1)
@@ -9566,6 +9652,137 @@
 			(project "Neige_PCB"
 				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
 					(reference "#PWR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 266.7 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ee8eb96-eb53-4bd1-85ad-c13a93f8a726")
+		(property "Reference" "#PWR5"
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 266.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 266.7 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26e047c3-ab71-40b0-9417-892958304d6d")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51011ece-a3d9-4b88-8384-116101ab91bb")
+		(property "Reference" "#PWR2"
+			(at 254 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3446b45b-f29d-4eae-bb7b-e83378185c18")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -11389,6 +11606,159 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 279.4 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89a89921-0b45-4a2b-a0ee-2ccea50cae3d")
+		(property "Reference" "C13"
+			(at 281.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 280.3652 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 279.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 279.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1258f7bc-ddf9-4893-ae12-118a5be77dd7")
+		)
+		(pin "2"
+			(uuid "6455add4-3c4a-459e-a2fc-27fe44d23457")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b33f910-ee0c-4914-8790-6225da495a67")
+		(property "Reference" "#PWR32"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12be8a0e-4fc0-47bf-bc37-95cc37df1d61")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 123.19 0)
 		(unit 1)
@@ -11985,6 +12355,72 @@
 			(project "Neige_PCB"
 				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 279.4 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b401630-97e2-4cc4-a34f-b6c2b05c75c3")
+		(property "Reference" "#PWR34"
+			(at 279.4 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035c2e6b-764b-4e62-8832-2f132490e425")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -14167,6 +14603,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 254 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba3f423e-fd6b-4470-8506-ffdea36b172e")
+		(property "Reference" "C11"
+			(at 256.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 256.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254.9652 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23733"
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 254 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad8fd939-a3be-4ac1-bc97-b9f13672f11e")
+		)
+		(pin "2"
+			(uuid "16aefbf1-f42a-45e2-aaba-e4ec1ce29228")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 110.49 62.23 90)
 		(unit 1)
@@ -15788,6 +16311,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 279.4 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6a06d31-ff05-4677-b738-60a54ebcb8a9")
+		(property "Reference" "#PWR33"
+			(at 279.4 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 279.4 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 279.4 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18e927e9-5aa3-4f4e-894f-660d8da3c536")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "#PWR33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 143.51 123.19 0)
 		(unit 1)
@@ -16583,6 +17171,93 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 266.7 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f670bba6-1a18-4864-80f3-e033b6a8d322")
+		(property "Reference" "C12"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 269.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 267.6652 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C23733"
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f802a4f-59ba-4aed-b8fa-85456d1fc948")
+		)
+		(pin "2"
+			(uuid "3a5f27e1-2ca0-4110-9943-7bfde9bbe14e")
+		)
+		(instances
+			(project "Neige_PCB"
+				(path "/3d120d70-8016-4f25-b980-ad33d03c9704"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 242.57 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16599,7 +17274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10nF"
 			(at 245.11 114.3 0)
 			(effects
 				(font
@@ -16635,7 +17310,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1525"
+		(property "JLCPCB Part #" "C15195"
 			(at 242.57 113.03 0)
 			(effects
 				(font

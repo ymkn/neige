@@ -33322,7 +33322,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "07b33b69-b443-43c9-a776-23fb5fe464ab")
 			(effects
@@ -33334,7 +33334,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "9906d8e4-6e59-4661-9d56-04a94ea312f9")
 			(effects
@@ -33521,7 +33521,7 @@
 			(uuid "e1f9c570-5110-43ed-a6d6-0f07bf3d9871")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d6ac74cc-67bd-44a4-8be5-565208b20a0e")
 			(effects
@@ -46594,7 +46594,7 @@
 			(xy 95.2498 47.6248) (xy 88.2498 47.6248)
 		)
 		(height 6.299999)
-		(gr_text "7.0000 mm"
+		(gr_text "7.00 mm"
 			(at 91.7498 40.174801 0)
 			(layer "Dwgs.User")
 			(uuid "0ed868b8-c352-4cd5-b1d5-713d510739c2")
@@ -46610,7 +46610,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46627,7 +46627,7 @@
 			(xy 95.2498 47.6248) (xy 114.2998 47.6248)
 		)
 		(height -6.25)
-		(gr_text "19.0500 mm"
+		(gr_text "19.05 mm"
 			(at 104.7748 40.2248 0)
 			(layer "Dwgs.User")
 			(uuid "460bc94b-fec1-4782-8985-1fd94ccb6eac")
@@ -46643,40 +46643,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "5280ac7f-4c44-4000-afba-bd9f3e64031d")
-		(pts
-			(xy 91.7498 101.2748) (xy 91.7498 104.7748)
-		)
-		(height 5.05)
-		(gr_text "3.5000 mm"
-			(at 85.5498 103.0248 90)
-			(layer "Dwgs.User")
-			(uuid "5280ac7f-4c44-4000-afba-bd9f3e64031d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46693,7 +46660,7 @@
 			(xy 91.7498 51.1248) (xy 88.2498 51.1248)
 		)
 		(height 6.55)
-		(gr_text "3.5000 mm"
+		(gr_text "3.50 mm"
 			(at 89.9998 43.4248 0)
 			(layer "Dwgs.User")
 			(uuid "53d43e47-c2cc-4ca4-a2e4-2c1fb6148dda")
@@ -46709,40 +46676,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "677f3438-c75e-486f-b140-a42da46b1722")
-		(pts
-			(xy 91.7498 101.2748) (xy 88.2498 101.2748)
-		)
-		(height -8.35)
-		(gr_text "3.5000 mm"
-			(at 89.9998 108.4748 0)
-			(layer "Dwgs.User")
-			(uuid "677f3438-c75e-486f-b140-a42da46b1722")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46759,7 +46693,7 @@
 			(xy 310.2498 49.7248) (xy 88.2498 49.7248)
 		)
 		(height 12.7)
-		(gr_text "222.0000 mm"
+		(gr_text "222.00 mm"
 			(at 199.2498 35.8748 0)
 			(layer "Dwgs.User")
 			(uuid "6fd39709-84ac-4d23-a04e-351798b3304b")
@@ -46775,7 +46709,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46792,7 +46726,7 @@
 			(xy 88.2498 51.6248) (xy 345.2498 51.6248)
 		)
 		(height -19.06)
-		(gr_text "257.0000 mm"
+		(gr_text "257.00 mm"
 			(at 216.7498 30.4148 0)
 			(layer "Dwgs.User")
 			(uuid "a7424c0f-354c-4fac-b1ef-d9b77b92047e")
@@ -46808,7 +46742,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46825,7 +46759,7 @@
 			(xy 88.2498 47.6248) (xy 88.2498 104.7748)
 		)
 		(height 14.549999)
-		(gr_text "57.1500 mm"
+		(gr_text "57.15 mm"
 			(at 71.549801 76.1998 90)
 			(layer "Dwgs.User")
 			(uuid "bd6d065d-201f-425e-be6a-7e4180bdd8a3")
@@ -46841,7 +46775,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46858,7 +46792,7 @@
 			(xy 345.2498 51.6248) (xy 310.2498 51.6248)
 		)
 		(height 14.59)
-		(gr_text "35.0000 mm"
+		(gr_text "35.00 mm"
 			(at 327.7498 35.8848 0)
 			(layer "Dwgs.User")
 			(uuid "e50ad227-eb58-4723-9418-be8d5e305522")
@@ -46874,7 +46808,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46890,9 +46824,9 @@
 		(pts
 			(xy 91.7498 51.1248) (xy 91.7498 101.2748)
 		)
-		(height 14.599999)
-		(gr_text "50.1500 mm"
-			(at 75.999801 76.1998 90)
+		(height 6.09)
+		(gr_text "50.15 mm"
+			(at 84.5098 76.1998 90)
 			(layer "Dwgs.User")
 			(uuid "e82dd150-ff01-45e9-a111-884d1c3e79df")
 			(effects
@@ -46907,7 +46841,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46924,7 +46858,7 @@
 			(xy 91.7498 51.1248) (xy 341.7498 51.1248)
 		)
 		(height -6.547825)
-		(gr_text "250.0000 mm"
+		(gr_text "250.00 mm"
 			(at 216.7498 43.426975 0)
 			(layer "Dwgs.User")
 			(uuid "e9abfcab-c2dd-4694-acd7-0ed1030dfc1f")
@@ -46940,7 +46874,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46957,7 +46891,7 @@
 			(xy 95.2498 47.6248) (xy 95.2498 66.6748)
 		)
 		(height 14.55)
-		(gr_text "19.0500 mm"
+		(gr_text "19.05 mm"
 			(at 79.5498 57.1498 90)
 			(layer "Dwgs.User")
 			(uuid "ebb02618-3bdf-4a8a-b147-5fbde3ce68fa")
@@ -46973,7 +46907,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
@@ -46990,7 +46924,7 @@
 			(xy 91.7498 51.1248) (xy 91.7498 47.6248)
 		)
 		(height -6.1)
-		(gr_text "3.5000 mm"
+		(gr_text "3.50 mm"
 			(at 84.4998 49.3748 90)
 			(layer "Dwgs.User")
 			(uuid "ee09df6f-1ec3-4b1b-980c-5ab5a5a234e3")
@@ -47006,7 +46940,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)

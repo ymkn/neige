@@ -24,6 +24,9 @@ fp-info-cache
 *.dsn
 *.ses
 
+fabrication-toolkit-options.json
+backups
+
 # FreeCAD
 *.pyc
 *.fcstd1
@@ -32,4 +35,4 @@ fp-info-cache
 *.FCStd2
 *.FCBak
 Private
-KiCAD/PCB/RP2040-Tiny V1.1.step
+

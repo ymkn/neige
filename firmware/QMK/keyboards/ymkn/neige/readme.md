@@ -10,8 +10,13 @@ Make example for this keyboard (after setting up your build environment):
 
 Flashing example for this keyboard:
 
-1. Enter the bootloader.
-2. Simply copy ymkn_Neige_vial.uf2 to RPI_RP2 drive.
+1. Install and open [QMK Toolbox](https://qmk.fm/toolbox).
+2. Disconnect the keyboard from the computer.
+3. Hold the top-left key while connecting the USB cable, or hold the BOOT button on the back of the PCB while connecting the USB cable.
+4. Confirm that QMK Toolbox shows `STM32 DFU device connected (WinUSB): STMicroelectronics STM32 BOOTLOADER`.
+5. Click `Open` and select the compiled firmware file.
+6. Click `Flash` and wait for the process to finish.
+7. When QMK Toolbox shows `Flash complete`, the firmware update is complete.
 
 This keyboard supports [Vial](https://get.vial.today/) configurator.
 
@@ -19,5 +24,5 @@ This keyboard supports [Vial](https://get.vial.today/) configurator.
 
 Enter the bootloader in 2 ways:
 
-* **Bootmagic reset**: Hold down the key at (0,0) and (1,11) in the matrix (usually the top left key or Tab and the right 2nd top key or Enter) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the daughterboard
+* **Key on plug-in**: Hold the top-left key while connecting the keyboard to USB.
+* **BOOT button**: Hold the BOOT button on the back of the PCB while connecting the keyboard to USB.
